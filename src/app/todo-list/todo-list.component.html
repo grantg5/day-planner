@@ -1,0 +1,76 @@
+
+{{currentItem1.getName()}}
+
+<!--
+<div class="columns is-centered">
+	<div class="tile is-ancestor">
+		<div class="column is-one-third ml-3">
+			<div class="tile is-parent">
+				<table class="table">
+				  <thead>
+				    <tr>
+				      <th>Time</th>
+				      <th>Activity</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th>8:00am</th>
+				      <div class="tile is-child has-background-warning"><td>Make Something</td></div>
+				    </tr>
+				    <tr>
+				    	<th>8:15am</th>
+				    	<div class="tile is-child has-background-warning"><td>Make Something Else</td></div>
+				    </tr>
+				    <tr>
+				      <th>8:30am</th>
+				    </tr>
+				    <tr>
+				    	<th>8:45am</th>
+				    </tr>
+				    <tr>
+				      <th>9:00am</th>
+				      <div class="tile is-child has-background-warning"><td>Make a Big Thing</td></div>
+				    </tr>
+				    <tr>
+				    	<th>9:15am</th>
+				    	<div class="tile is-child has-background-warning"><td>Make a Big Thing</td></div>
+				    </tr>
+			    </tbody>
+		    </table>
+			</div>
+			<p>{{currentDay.items[0].name}}</p>
+			<p>{{currentDay.startTime}}</p>
+			{{while }}
+		</div>
+
+		<div class="column is-two-thirds">
+			<div *ngFor = "let todoList of todoLists" class="tile is-parent">
+				<div class="tile is-child has-background-light">
+					<div class="tile">
+						<div class="container">
+							<h3 class="subtitle ml-3 mt-2">{{todoList.name}}</h3>
+							<div *ngFor="let item of todoList.items">
+								<div class="card ml-2 mr-2 mb-2 mt-2">
+									<header class="card-header">
+										<p class="card-header-title">{{item.name}}</p>
+										<a href="#" class="card-header-icon" aria-label="more options">
+								      <span class="icon">
+								        <i class="fas fa-angle-down" aria-hidden="true"></i>
+								      </span>
+								    </a>
+									</header>
+									<div class="card-content">
+										<div class="content">{{item.description}} <br/>
+										{{item.minutesDuration}} minutes</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+-->
